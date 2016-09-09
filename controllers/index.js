@@ -17,5 +17,5 @@ module.exports = function (router) {
         var x = req.body;
         res.send('<code><pre>' + raq.body + '</pre></code>');
         res.status(200).end;
-    }
+    });
 };
