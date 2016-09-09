@@ -12,5 +12,9 @@ module.exports = function (router) {
         res.send('<code><pre>' + JSON.stringify(model, null, 2) + '</pre></code>');
         
     });
-
+    
+    router.post('/', function (req, res)){
+        var x = req.body;
+        res.send('<code><pre>' + raq.body + '</pre></code>')
+    }
 };
